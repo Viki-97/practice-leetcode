@@ -1,0 +1,15 @@
+
+    <script type="text/javascript">
+    document.write("<h2>Multiplication table from (1 to 10)</h2>");
+    document.write("<table border=2 width=50%");
+
+    for (var i=1;i<=10;i++{
+        document.write("<tr");
+        document.write("<td" + i + "</td");
+        for(var j=2;j<=10;j++)
+    {
+         document.write("<td"+i+"</td");}
+         document.write("</tr");
+    }
+    document.write("</table");
+    
